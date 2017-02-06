@@ -1,2 +1,4 @@
 /target/
-/src/
+/src/main/xtend-gen/
+/src/test/xtend-gen/
+
