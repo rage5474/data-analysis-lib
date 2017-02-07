@@ -21,4 +21,9 @@ class DistanceMatrix {
 			println
 		]
 	}
+	
+	def getMaxIndex(int index) {
+		(matrix.get(index) as List<Double>).indexOf((matrix.get(index) as List<Double>).max)
+	}
+	
 }
